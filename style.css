@@ -1,0 +1,73 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr;
+    grid-template-rows: 0.5fr 0.2fr 0.3fr;
+    grid-template-areas:
+          "leftsidebar main rightsidebar"
+          "contentone footer footer "
+    
+    ;
+    border-style: ridge;
+    row-gap: 5px;
+    border-top:0.2%;
+    padding: 0.1%;
+}
+.leftsidebar{
+    background-color: white;
+    grid-area: leftsidebar;
+    border-style: ridge;
+}
+
+main{
+    background-color: white;
+    grid-area: main;
+    border-style: ridge;
+}
+.rightsidebar{
+    background-color: white;
+    grid-area: rightsidebar;
+    border-style: ridge;
+}
+#contentone{
+    background-color: white;
+    grid-area: contentone;
+    border-style: ridge;
+}
+
+#contenttwo{
+    background-color: darkkhaki;
+    grid-area: contenttwo;
+    border-style: ridge;
+    padding: 5%;
+}
+#contentthree{
+    background-color: aqua;
+    grid-area: contentthree;
+    border-style: ridge;
+    padding: 5%;
+}
+#contentfour{
+    background-color: blue;
+    grid-area: contentfour;
+    border-style: ridge;
+    padding: 5%;
+    
+}
+.footer{
+    border-style: ridge;
+    text-align: center;
+
+}
+#contentfive{
+    background-color: darkcyan;
+    grid-area: contentfive;
+    border-style: ridge;
+    padding: 5%;
+}
+#contentsix{
+    background-color: purple;
+    grid-area: contentsix;
+    border-style: ridge;
+    padding: 5%;
+}
